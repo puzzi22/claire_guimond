@@ -344,7 +344,8 @@ header {
 .main-nav li a:link,
 .main-nav li a:visited,
 .languages li a:link,
-.languages li a:visited {
+.languages li a:visited,
+.main-nav li button {
   padding: 5px 0;
   color: white;
   text-decoration: none;
@@ -364,8 +365,15 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active,
 .languages li a:hover,
-.languages li a:active {
+.languages li a:active,
+.main-nav li button:hover {
   border-bottom: 2px solid var(--primary-color);
+}
+
+.main-nav li button {
+  background-color: transparent;
+  color: white;
+  border: none;
 }
 
 /* Mobile navi */
@@ -395,8 +403,8 @@ header {
   z-index: 9999;
 }
 
-.sticky main-nav,
-.sticky languages {
+.sticky .main-nav,
+.sticky .languages {
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -414,8 +422,13 @@ header {
   color: var(--grey-color);
 }
 
+.sticky .main-nav li button {
+  color: var(--grey-color);
+}
+
 .sticky .main-nav li a:hover,
-.sticky .languages li a:hover {
+.sticky .languages li a:hover,
+.sticky .main-nav li button:hover {
   color: var(--primary-color);
 }
 
