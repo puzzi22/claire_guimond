@@ -90,6 +90,7 @@ h3 {
   text-align: center;
   text-transform: none;
   color: black;
+  font-weight: 800;
 }
 
 h2:after {
