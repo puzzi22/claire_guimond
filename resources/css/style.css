@@ -89,8 +89,6 @@ h3 {
   margin-bottom: 15px;
   text-align: center;
   text-transform: none;
-  color: black;
-  font-weight: 800;
 }
 
 h2:after {
@@ -281,23 +279,12 @@ input[type="submit"]:active {
 /* ---------------------------------------------------------------- */
 
 header {
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.4)),
-      to(rgba(0, 0, 0, 0.9))
-    ),
-    url(img/Claire_Guimond.jpg);
-  background-image: -webkit-linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.9)
-    ),
-    url(img/Claire_Guimond.jpg);
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
-    url(img/Claire_Guimond.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
-    url(img/Claire_Guimond.jpg);
+    image-set(
+      url(img/Claire_Guimond.jpg?width=800&as=webp) 1x,
+      url(img/Claire_Guimond.jpg?width=1200&as=webp) 2x,
+      url(img/Claire_Guimond.jpg?width=1800&as=webp) 3x
+    );
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -360,7 +347,7 @@ header {
   transition: border-bottom 0.3s;
 }
 
-.main-nav i {
+.main-nav button {
   display: none;
 }
 
@@ -385,11 +372,10 @@ header {
   margin-top: 10px;
   cursor: pointer;
   display: none;
-}
-
-.mobile-nav-icon i {
-  font-size: 200%;
+  border: none;
+  background-color: transparent;
   color: white;
+  font-size: 150%;
 }
 
 /* Sticky navi */
@@ -411,7 +397,7 @@ header {
   margin-bottom: 15px;
 }
 
-.sticky i {
+.sticky button {
   display: inline-block;
   color: var(--primary-color);
 }
@@ -544,25 +530,14 @@ header {
 /* ---------------------------------------------------------------- */
 
 .section-teaching {
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.6)),
-      to(rgba(0, 0, 0, 0.9))
-    ),
-    url(img/TBSI.jpg);
-  background-image: -webkit-linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.9)
-    ),
-    url(img/TBSI.jpg);
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
-    url(img/TBSI.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
-    url(img/TBSI.jpg);
+    image-set(
+      url(img/TBSI.jpg?width=800&as=webp) 1x,
+      url(img/TBSI.jpg?width=1200&as=webp) 2x,
+      url(img/TBSI.jpg?width=1800&as=webp) 3x
+    );
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-attachment: fixed;
   color: white;
 }
