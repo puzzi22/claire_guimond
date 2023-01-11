@@ -594,9 +594,8 @@ cite {
 }
 
 .CD-cover a {
-  display: block;
-  width: 100%;
-  height: auto;
+  display: inline-block;
+  height: 100%;
 }
 
 .CD-cover img {
