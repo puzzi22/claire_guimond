@@ -54,7 +54,6 @@ body.lb-disable-scrolling {
   width: 100%;
 }
 .lb-cancel {
-  border: none;
   display: block;
   width: 32px;
   height: 32px;
@@ -78,7 +77,6 @@ body.lb-disable-scrolling {
 }
 .lb-next,
 .lb-prev {
-  border: none;
   height: 100%;
   cursor: pointer;
   display: block;
@@ -151,7 +149,6 @@ body.lb-disable-scrolling {
   color: #999;
 }
 .lb-data .lb-close {
-  border: none;
   display: block;
   float: right;
   width: 30px;
