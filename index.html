@@ -112,7 +112,7 @@
 
   <body>
     <header id="top">
-      <nav>
+      <nav role="navigation" aria-label="Main menu">
         <div class="row main-nav-top-row">
           <ul class="languages">
             <li><a href="./fr" hreflang="fr">FR</a></li>
@@ -133,11 +133,16 @@
               </button>
             </li>
           </ul>
-          <button class="mobile-nav-icon js--nav-icon">
-            <span class="ion-navicon" aria-label="hamburger menu"></span>
+          <button aria-expanded="true" class="mobile-nav-icon js--nav-icon">
+            <span
+              class="ion-navicon"
+              aria-hidden="true"
+              focusable="false"
+            ></span>
           </button>
         </div>
       </nav>
+
       <div class="Claire_Guimond-text-box primary-letter">
         <h1>Claire Guimond</h1>
         <a class="btn btn-full js--scroll-to-multimedia" href="#">Listen</a>
@@ -1083,7 +1088,7 @@
           <iframe
             width="853"
             height="480"
-            src="https://www.youtube.com/embed/EFNP2y87NDg"
+            src="https://www.youtube.com/embed/EFNP2y87NDg?VQ=HD1080"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -1097,7 +1102,7 @@
           <iframe
             width="853"
             height="480"
-            src="https://www.youtube.com/embed/vnRoSpOY1y8"
+            src="https://www.youtube.com/embed/vnRoSpOY1y8?VQ=HD1080"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -1111,7 +1116,7 @@
           <iframe
             width="853"
             height="480"
-            src="https://www.youtube.com/embed/x00hzw7LIGA"
+            src="https://www.youtube.com/embed/x00hzw7LIGA?VQ=HD1080"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -1125,7 +1130,7 @@
           <iframe
             width="853"
             height="480"
-            src="https://www.youtube.com/embed/f3_sgnZXvjY"
+            src="https://www.youtube.com/embed/f3_sgnZXvjY?VQ=HD1080"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

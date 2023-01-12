@@ -109,10 +109,10 @@ h2:after {
   margin-bottom: 25px;
 }
 
-.box p {
+/* .box p {
   font-size: 90%;
   line-height: 145%;
-}
+} */
 
 .section-biography {
   text-align: justify;
@@ -200,8 +200,8 @@ a:active {
 .js--wp-2 a:active,
 .Made__by a:hover,
 .Made__by a:active {
-  color: var(--primary-color-hover);
-  border-bottom: 1px solid var(--primary-color-hover);
+  color: rgb(211, 211, 211);
+  border-bottom: 1px solid rgb(211, 211, 211);
 }
 
 .section-photos ul li a:link,
@@ -517,9 +517,9 @@ header {
 /* BIOGRAPHY */
 /* ---------------------------------------------------------------- */
 
-.biography-text {
+/* .biography-text {
   margin-top: 40px;
-}
+} */
 
 .biography p {
   margin: 20px 0;
