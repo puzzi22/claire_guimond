@@ -79,6 +79,13 @@
     ></script>
     <script defer src="vendors/js/jquery.waypoints.min.js"></script>
     <script defer src="resources/js/script.js"></script>
+    <script>
+      // Function for "Back to Top" button
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"
@@ -134,11 +141,6 @@
             <li><a href="#discography">Discografía</a></li>
             <li><a href="#multimedia">Multimedia</a></li>
             <li><a href="#contact">Contacto</a></li>
-            <li>
-              <button href="#top" aria-label="top">
-                <span class="ion-arrow-up-c icon-small"></span>
-              </button>
-            </li>
           </ul>
           <button
             aria-expanded="true"
@@ -158,6 +160,14 @@
         <a class="btn btn-full js--scroll-to-multimedia" href="#">Escuchar</a>
         <a class="btn btn-ghost js--scroll-to-introduction" href="#">Más</a>
       </div>
+      <button
+        onclick="topFunction()"
+        id="myBtn"
+        title="Go to top"
+        aria-label="top"
+      >
+        <span class="ion-arrow-up-c icon-small"></span>
+      </button>
     </header>
 
     <section class="section-introduction js--section-introduction">
@@ -1434,41 +1444,36 @@
             <li><a href="#discography">Discografía</a></li>
             <li><a href="#multimedia">Multimedia</a></li>
             <li><a href="#contact">Contacto</a></li>
-            <li>
-              <button href="#top" aria-label="top">
-                <span class="ion-arrow-up-c icon-small"></span>
-              </button>
-            </li>
           </ul>
         </div>
         <div class="col span-1-of-5">
           <ul class="social-links">
             <li>
-              <button
+              <a
                 href="https://fr-fr.facebook.com/claire.guimond.12"
                 target="_blank"
-                aria-label="facebook"
+                aria-label="Facebook"
               >
-                <span class="ion-social-facebook"></span>
-              </button>
+                <span class="ion-social-facebook" aria-hidden="true"></span>
+              </a>
             </li>
             <li>
-              <button
+              <a
                 href="https://twitter.com/marieroseclaire"
                 target="_blank"
-                aria-label="twitter"
+                aria-label="Twitter"
               >
-                <span class="ion-social-twitter"></span>
-              </button>
+                <span class="ion-social-twitter" aria-hidden="true"></span>
+              </a>
             </li>
             <li>
-              <button
+              <a
                 href="https://www.youtube.com/channel/UC0QN3o17uPPo1tKpTejXKEA"
                 target="_blank"
-                aria-label="youtube"
+                aria-label="Youtube"
               >
-                <span class="ion-social-youtube"></span>
-              </button>
+                <span class="ion-social-youtube" aria-hidden="true"></span>
+              </a>
             </li>
           </ul>
         </div>
