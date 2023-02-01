@@ -323,7 +323,7 @@ header {
 .languages {
   float: left;
   position: absolute;
-  left: 5%;
+  left: 7%;
 }
 
 .languages li {
@@ -393,8 +393,8 @@ header {
   cursor: pointer;
   display: none;
   border: none;
-  background-color: transparent;
-  color: white;
+  background-color: white;
+  color: var(--grey-color);
   font-size: 150%;
 }
 
@@ -426,7 +426,7 @@ header {
 .sticky .main-nav li a:visited,
 .sticky .languages li a:link,
 .sticky .languages li a:visited {
-  padding: 20px 0;
+  padding: 17px 0;
   color: var(--grey-color);
 }
 

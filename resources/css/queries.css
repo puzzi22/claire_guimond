@@ -64,16 +64,23 @@
 
   .mobile-nav-icon {
     display: inline-block;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
   }
 
   .main-nav {
     float: left;
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 5%;
   }
 
   .main-nav li {
     display: block;
+  }
+
+  .main-nav li:first-child {
+    margin-top: 30px;
   }
 
   .main-nav li a:link,
@@ -90,7 +97,6 @@
 
   .icon-small {
     width: 17px;
-    margin-right: 5px;
   }
 
   .claire-showcase-2 li {
@@ -163,10 +169,15 @@
       z-index: 9999;
     }
 
-    .sticky main-nav,
-    .sticky languages {
+    .sticky .main-nav,
+    .sticky .languages {
       margin-top: 10px;
       margin-bottom: 10px;
+    }
+
+    .sticky .main-nav li {
+      margin-left: 0;
+      padding-left: 0;
     }
 
     .sticky button {
@@ -177,8 +188,9 @@
     .sticky .main-nav li a:visited,
     .sticky .languages li a:link,
     .sticky .languages li a:visited {
-      padding: 10px 0;
+      padding: 14px 0;
     }
+
     .sticky button {
       margin-top: 10px;
       color: #4e4e4e;
