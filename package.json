@@ -32,7 +32,6 @@
   },
   "homepage": "https://github.com/puzzi22/claire_guimond#readme",
   "dependencies": {
-    "blazy": "^1.8.2",
     "parcel": "^2.8.2"
   },
   "devDependencies": {
