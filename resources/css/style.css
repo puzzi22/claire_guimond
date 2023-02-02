@@ -336,8 +336,8 @@ header {
   max-width: 1200px;
   float: right;
   list-style: none;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   margin-right: 50px;
 }
 
@@ -393,8 +393,8 @@ header {
   cursor: pointer;
   display: none;
   border: none;
-  background-color: white;
-  color: var(--grey-color);
+  background-color: transparent;
+  color: white;
   font-size: 150%;
 }
 
@@ -475,6 +475,7 @@ header {
   text-decoration: none;
   color: var(--grey-color);
   border-bottom-color: var(--grey-color);
+  line-height: 1.5;
 }
 
 .news__link a:hover {

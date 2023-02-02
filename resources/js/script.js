@@ -193,7 +193,7 @@ $(document).ready(function () {
 
   $(".js--nav-icon").click(function () {
     var nav = $(".main-nav");
-    var icon = $(".js--nav-icon i");
+    var icon = $(".js--nav-icon span");
 
     nav.slideToggle(200);
     if (icon.hasClass("ion-navicon")) {

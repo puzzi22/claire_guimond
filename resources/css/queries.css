@@ -136,14 +136,16 @@
     body {
       font-size: 16px;
     }
+
     section {
       padding: 30px 0;
     }
 
     .row,
     .Claire_Guimond-text-box {
-      padding: 0 4%;
+      padding: 0 8%;
     }
+
     .col {
       width: 100%;
       margin: 0 0 4% 0%;
@@ -171,8 +173,8 @@
 
     .sticky .main-nav,
     .sticky .languages {
-      margin-top: 10px;
-      margin-bottom: 10px;
+      margin-top: 15px;
+      margin-bottom: 15px;
     }
 
     .sticky .main-nav li {
@@ -191,9 +193,13 @@
       padding: 14px 0;
     }
 
-    .sticky button {
+    /* .sticky button {
       margin-top: 10px;
       color: #4e4e4e;
+    } */
+
+    .sticky .main-nav-top-row .mobile-nav-icon {
+      color: var(--grey-color);
     }
 
     h1 {
