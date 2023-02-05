@@ -694,12 +694,9 @@ textarea {
   text-align: center;
 }
 
-.success {
-  background-color: #33c36f;
-}
-
-.error {
-  background-color: #c60404;
+iframe[title~="reCAPTCHA"] {
+  height: 100%;
+  width: 100%;
 }
 
 /* ---------------------------------------------------------------- */

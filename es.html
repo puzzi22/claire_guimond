@@ -1350,21 +1350,9 @@
       <div class="row" id="form">
         <h2>Contacto</h2>
       </div>
+      <div class="row"></div>
       <div class="row">
-        <!-- <?php
-					if (isset($_GET['success'])) {
-						if ($_GET['success'] == 1) {
-						echo "<div class=\"form-messages success\">Thank you! <em>Merci!</em> ¡Gracias!</div>";
-						}
-
-                  if ($_GET['success'] == -1) {
-                  echo "<div class=\"form-messages error\">Oops! <em>Oups!</em> ¡Ups!</div>";
-						}
-				   }
-				?> -->
-      </div>
-      <div class="row">
-        <form method="post" action="mailer-new.php" class="contact-form">
+        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
           <div class="row">
             <div class="col span-1-of-3">
               <label for="name">Nombre</label>
@@ -1405,6 +1393,14 @@
                 placeholder="Su mensaje"
                 required
               ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>&nbsp;</label>
+            </div>
+            <div class="col span-2-of-3">
+              <div data-netlify-recaptcha="true"></div>
             </div>
           </div>
           <div class="row">
