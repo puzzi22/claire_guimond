@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/puzzi22/claire_guimond#readme",
   "dependencies": {
+    "jquery": "^3.6.3",
     "parcel": "^2.8.2"
   },
   "devDependencies": {
